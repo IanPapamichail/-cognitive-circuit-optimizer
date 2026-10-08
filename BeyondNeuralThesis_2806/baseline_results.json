@@ -1,0 +1,54 @@
+{
+    "VQE": {
+        "circuit_name": "VQE_Ansatz_12q",
+        "original": {
+            "depth": 43,
+            "cx_count": 88,
+            "total_gates": 304
+        },
+        "qiskit_L1": {
+            "depth": 70,
+            "cx_count": 88,
+            "total_gates": 628,
+            "runtime_sec": 0.8192
+        },
+        "qiskit_L2": {
+            "depth": 70,
+            "cx_count": 88,
+            "total_gates": 628,
+            "runtime_sec": 0.0083
+        },
+        "qiskit_L3": {
+            "depth": 70,
+            "cx_count": 88,
+            "total_gates": 628,
+            "runtime_sec": 0.0038
+        }
+    },
+    "Random": {
+        "circuit_name": "Random_Circuit_10q",
+        "original": {
+            "depth": 20,
+            "cx_count": 0,
+            "total_gates": 134
+        },
+        "qiskit_L1": {
+            "depth": 125,
+            "cx_count": 112,
+            "total_gates": 500,
+            "runtime_sec": 0.0033
+        },
+        "qiskit_L2": {
+            "depth": 110,
+            "cx_count": 96,
+            "total_gates": 481,
+            "runtime_sec": 0.0046
+        },
+        "qiskit_L3": {
+            "depth": 110,
+            "cx_count": 96,
+            "total_gates": 481,
+            "runtime_sec": 0.0048
+        }
+    }
+}

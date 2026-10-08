@@ -1,0 +1,122 @@
+{
+    "configuration": {
+        "warmup_runs": 20,
+        "measured_paired_runs": 500,
+        "timer": "time.perf_counter_ns",
+        "timed_region": "CognitiveOptimizer.optimize only"
+    },
+    "benchmarks": {
+        "Random": {
+            "structure": {
+                "gates": 465,
+                "depth": 120,
+                "cx": 112
+            },
+            "memory_on_runtime_ms": {
+                "n": 500,
+                "mean": 5.307101242,
+                "sd": 1.6567598625342868,
+                "median": 5.110958,
+                "q1": 5.054187499999999,
+                "q3": 5.19497975,
+                "iqr": 0.1407922500000005,
+                "min": 4.916625,
+                "max": 29.202208
+            },
+            "memory_off_runtime_ms": {
+                "n": 500,
+                "mean": 5.402902598,
+                "sd": 2.5256140871589325,
+                "median": 5.0727505,
+                "q1": 5.02624,
+                "q3": 5.17453125,
+                "iqr": 0.14829125000000065,
+                "min": 4.917292,
+                "max": 41.63375
+            },
+            "paired_delta_on_minus_off_ms": {
+                "n": 500,
+                "mean": -0.095801356,
+                "sd": 2.6689500637676358,
+                "median": 0.0329165,
+                "q1": -0.04197975,
+                "q3": 0.10743675,
+                "iqr": 0.1494165,
+                "min": -29.530083,
+                "max": 19.342875
+            },
+            "median_speed_ratio_off_over_on": 0.9925243956221123,
+            "median_runtime_change_pct": 0.753190995693567,
+            "memory_statistics": {
+                "recalls_unique_values": [
+                    33
+                ],
+                "discoveries_unique_values": [
+                    1
+                ],
+                "hits_unique_values": [
+                    33
+                ],
+                "misses_unique_values": [
+                    1
+                ]
+            }
+        },
+        "VQE": {
+            "structure": {
+                "gates": 520,
+                "depth": 61,
+                "cx": 88
+            },
+            "memory_on_runtime_ms": {
+                "n": 500,
+                "mean": 4.3467281,
+                "sd": 1.968738072970219,
+                "median": 4.168521,
+                "q1": 4.11379125,
+                "q3": 4.244656,
+                "iqr": 0.13086474999999975,
+                "min": 3.982875,
+                "max": 46.960292
+            },
+            "memory_off_runtime_ms": {
+                "n": 500,
+                "mean": 4.487171178,
+                "sd": 2.5902304498371564,
+                "median": 4.067875000000001,
+                "q1": 4.014104,
+                "q3": 4.1658855,
+                "iqr": 0.15178150000000024,
+                "min": 3.852291,
+                "max": 28.806083
+            },
+            "paired_delta_on_minus_off_ms": {
+                "n": 500,
+                "mean": -0.140443078,
+                "sd": 3.1586107563788395,
+                "median": 0.097083,
+                "q1": 0.01631225,
+                "q3": 0.177761,
+                "iqr": 0.16144875,
+                "min": -24.522708,
+                "max": 40.677251
+            },
+            "median_speed_ratio_off_over_on": 0.9758557051769682,
+            "median_runtime_change_pct": 2.4741664874166323,
+            "memory_statistics": {
+                "recalls_unique_values": [
+                    107
+                ],
+                "discoveries_unique_values": [
+                    1
+                ],
+                "hits_unique_values": [
+                    107
+                ],
+                "misses_unique_values": [
+                    1
+                ]
+            }
+        }
+    }
+}

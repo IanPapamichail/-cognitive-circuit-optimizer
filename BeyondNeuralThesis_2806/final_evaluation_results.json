@@ -1,0 +1,88 @@
+{
+    "VQE": {
+        "circuit_name": "VQE_Ansatz_12q",
+        "original": {
+            "depth": 43,
+            "cx_count": 88,
+            "total_gates": 304
+        },
+        "qiskit_L1": {
+            "depth": 70,
+            "cx_count": 88,
+            "total_gates": 628,
+            "runtime_sec": 0.8192
+        },
+        "qiskit_L2": {
+            "depth": 70,
+            "cx_count": 88,
+            "total_gates": 628,
+            "runtime_sec": 0.0083
+        },
+        "qiskit_L3": {
+            "depth": 70,
+            "cx_count": 88,
+            "total_gates": 628,
+            "runtime_sec": 0.0038,
+            "fidelity": 0.9004
+        },
+        "cognitive_optimizer": {
+            "depth": 61,
+            "cx_count": 88,
+            "total_gates": 520,
+            "runtime_sec": 0.016881,
+            "memory_hits": 107,
+            "memory_misses": 1,
+            "rule_recalls": 107,
+            "rule_discoveries": 1,
+            "memory_hit_ratio": 0.990741,
+            "fidelity": 0.8993,
+            "hit_ratio_pct": 99.07,
+            "gate_reduction_vs_l3_pct": 17.2,
+            "depth_reduction_vs_l3_pct": 12.86,
+            "compilation_speedup_factor": 0.23
+        }
+    },
+    "Random": {
+        "circuit_name": "Random_Circuit_10q",
+        "original": {
+            "depth": 20,
+            "cx_count": 0,
+            "total_gates": 134
+        },
+        "qiskit_L1": {
+            "depth": 125,
+            "cx_count": 112,
+            "total_gates": 500,
+            "runtime_sec": 0.0033
+        },
+        "qiskit_L2": {
+            "depth": 110,
+            "cx_count": 96,
+            "total_gates": 481,
+            "runtime_sec": 0.0046
+        },
+        "qiskit_L3": {
+            "depth": 110,
+            "cx_count": 96,
+            "total_gates": 481,
+            "runtime_sec": 0.0048,
+            "fidelity": 0.6896
+        },
+        "cognitive_optimizer": {
+            "depth": 120,
+            "cx_count": 112,
+            "total_gates": 465,
+            "runtime_sec": 0.006312,
+            "memory_hits": 33,
+            "memory_misses": 1,
+            "rule_recalls": 33,
+            "rule_discoveries": 1,
+            "memory_hit_ratio": 0.970588,
+            "fidelity": 0.6993,
+            "hit_ratio_pct": 97.06,
+            "gate_reduction_vs_l3_pct": 3.33,
+            "depth_reduction_vs_l3_pct": -9.09,
+            "compilation_speedup_factor": 0.76
+        }
+    }
+}
