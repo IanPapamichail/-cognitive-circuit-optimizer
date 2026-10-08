@@ -1,4 +1,4 @@
-# Cognitive Circuit Optimizer
+#Cognitive Circuit Optimizer
 
 > **A memory-augmented, quantum-inspired optimization architecture for adaptive quantum circuit rewriting.**
 
